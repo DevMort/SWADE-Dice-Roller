@@ -44,3 +44,12 @@ func _ready() -> void:
 			var dx_sp = load("res://Sprites/dx_p.png")
 			set("texture_normal", dx_s)
 			set("texture_pressed", dx_sp)
+
+func roll() -> void:
+	var ps = get_tree().get_nodes_in_group("main")
+	var main = ps[0]
+	
+	if kind == 'dx':
+		main.roll()
+	else:
+		main.add_to_roll_pool(kind)
