@@ -22,12 +22,16 @@ func roll():
 		while explode:
 			var x = randi() % i + 1
 			y += x
-			if not (x == i): ## see if the dice explodes
+			if not (x == i):
 				explode = false
-			if not results == "": results = results + " + " + String(x)
-			else: results  = String(x)
+				if not results == "": results = results + " + " + String(x)
+				else: results  = String(x)
+			
+			if x == i:
+				if not results == "": results = results + " + [color=#d44e52]" + String(x) +"[/color]"
+				else: results  = "[color=#d44e52]" + String(x) +"[/color]"
 	
-	output_text.bbcode_text = "[center]" + String(results) + " = " + String(y)
+	output_text.bbcode_text = "[center]" + String(results) + " = " + "[color=#80ac40]" +String(y) +"[/color]"
 	if roll_pool.size() > 1: roll_pool.clear()
 	results = ""
 	new = true

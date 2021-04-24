@@ -5,7 +5,7 @@
 [ext_resource path="res://Scripts/Main.gd" type="Script" id=3]
 
 [sub_resource type="DynamicFont" id=1]
-size = 48
+size = 64
 font_data = ExtResource( 1 )
 
 [sub_resource type="DynamicFont" id=2]
@@ -40,10 +40,10 @@ margin_bottom = 612.0
 
 [node name="output" type="RichTextLabel" parent="VBoxContainer/MarginContainer/CenterContainer"]
 margin_left = 112.0
-margin_top = 181.0
+margin_top = 131.0
 margin_right = 612.0
-margin_bottom = 431.0
-rect_min_size = Vector2( 500, 250 )
+margin_bottom = 481.0
+rect_min_size = Vector2( 500, 350 )
 custom_fonts/normal_font = SubResource( 1 )
 custom_colors/default_color = Color( 1, 0.972549, 0.752941, 1 )
 bbcode_enabled = true
