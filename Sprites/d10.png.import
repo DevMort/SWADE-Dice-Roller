@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/d10 and d100.png-846b6aedec8c135abefaceb42db15e4d.stex"
+path="res://.import/d10.png-8ca6bc418fb75d9a2b727d9f96804fa5.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/d10 and d100.png"
-dest_files=[ "res://.import/d10 and d100.png-846b6aedec8c135abefaceb42db15e4d.stex" ]
+source_file="res://Sprites/d10.png"
+dest_files=[ "res://.import/d10.png-8ca6bc418fb75d9a2b727d9f96804fa5.stex" ]
 
 [params]
 

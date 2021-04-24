@@ -20,8 +20,8 @@ func _ready() -> void:
 			set("texture_normal", d8_s)
 			set("texture_pressed", d8_sp)
 		"d10":
-			var d10_s = load("res://Sprites/d10 and d100.png")
-			var d10_sp = load("res://Sprites/d10 and d100_p.png")
+			var d10_s = load("res://Sprites/d10.png")
+			var d10_sp = load("res://Sprites/d10_p.png")
 			set("texture_normal", d10_s)
 			set("texture_pressed", d10_sp)
 		"d12":
@@ -35,8 +35,8 @@ func _ready() -> void:
 			set("texture_normal", d20_s)
 			set("texture_pressed", d20_sp)
 		"d100":
-			var d100_s = load("res://Sprites/d10 and d100.png")
-			var d100_sp = load("res://Sprites/d10 and d100_p.png")
+			var d100_s = load("res://Sprites/d100.png")
+			var d100_sp = load("res://Sprites/d100_p.png")
 			set("texture_normal", d100_s)
 			set("texture_pressed", d100_sp)
 		"dx":
