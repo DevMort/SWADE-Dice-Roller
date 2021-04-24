@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/dice rolls.wav-d9d54a52045b4aae18ed9e79bb4e3e16.sample"
+path="res://.import/dice.wav-c228278a2067c35369c0aec01e2d6862.sample"
 
 [deps]
 
-source_file="res://Sounds/dice rolls.wav"
-dest_files=[ "res://.import/dice rolls.wav-d9d54a52045b4aae18ed9e79bb4e3e16.sample" ]
+source_file="res://Sounds/dice.wav"
+dest_files=[ "res://.import/dice.wav-c228278a2067c35369c0aec01e2d6862.sample" ]
 
 [params]
 

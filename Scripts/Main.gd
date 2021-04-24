@@ -1,5 +1,7 @@
 extends Control
 
+export (PackedScene) var sound
+
 var roll_pool : Array = []
 var results : String = ""
 var new : bool = true
@@ -23,11 +25,21 @@ func roll():
 			var x = randi() % i + 1
 			y += x
 			if not (x == i):
+				var s = sound.instance()
+				add_child(s)
+				s.add_sound("dice")
+				s.play_sound()
+				
 				explode = false
 				if not results == "": results = results + " + " + String(x)
 				else: results  = String(x)
 			
 			if x == i:
+				var s = sound.instance()
+				add_child(s)
+				s.add_sound("explode")
+				s.play_sound()
+				
 				if not results == "": results = results + " + [color=#d44e52]" + String(x) +"[/color]"
 				else: results  = "[color=#d44e52]" + String(x) +"[/color]"
 	
