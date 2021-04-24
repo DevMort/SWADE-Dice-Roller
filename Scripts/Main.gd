@@ -32,12 +32,12 @@ func roll():
 				else: results  = "[color=#d44e52]" + String(x) +"[/color]"
 	
 	output_text.bbcode_text = "[center]" + String(results) + " = " + "[color=#80ac40]" +String(y) +"[/color]"
-	if roll_pool.size() > 1: roll_pool.clear()
 	results = ""
 	new = true
 	
 func add_to_roll_pool(kind : String) -> void:
-	if new: roll_pool.clear()
+	if new: 
+		roll_pool.clear()
 	match kind:
 		"d4": roll_pool.append(4)
 		"d6": roll_pool.append(6)
