@@ -56,12 +56,12 @@ func roll():
 				s += j
 				if h == "":
 					if j == i:
-						h += "[color=#d44e52]" + String(j) + "[/color]"
+						h += "[color=#d44e52]" + "[shake rate=10 level=66]" + String(j) + "[/shake]" + "[/color]"
 					else:
 						h += colors[i] + String(j) + "[/color]"
 				else:
 					if j == i:
-						h += " + [color=#d44e52]" + String(j) + "[/color]"
+						h += " + [color=#d44e52]" + "[shake rate=10 level=66]" + String(j) + "[/shake]" + "[/color]"
 					else:
 						h += " + " + colors[i] + String(j) + "[/color]"
 			z += "[color=#80ac40]d" + l[i] + ":[/color] " + h + " = " + String(s) + "\n"
