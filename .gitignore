@@ -1,0 +1,24 @@
+.import/.gdignore
+SWADE Dice Roller.x86_64
+Sounds/dice.wav.import
+Sounds/explode.wav.import
+Sprites/d10.png.import
+Sprites/d100.png.import
+Sprites/d100_p.png.import
+Sprites/d10_p.png.import
+Sprites/d12.png.import
+Sprites/d12_p.png.import
+Sprites/d20.png.import
+Sprites/d20_p.png.import
+Sprites/d4.png.import
+Sprites/d4_p.png.import
+Sprites/d6.png.import
+Sprites/d6_p.png.import
+Sprites/d8.png.import
+Sprites/d8_p.png.import
+Sprites/dx.png.import
+Sprites/dx_p.png.import
+adaptive_bg_icon.png.import
+adaptive_fg_icon.png.import
+icon.png.import
+splash screen.png.import
